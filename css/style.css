@@ -1,0 +1,209 @@
+body { margin: 0; } 
+nav  {
+    width: 100%;
+    background-color: #000000;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    font-family: "Audiowide", sans-serif;
+
+    a {
+        background-color: red;
+        color: white;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:link {
+        color: #ff0000;
+      }
+      
+      a:visited {
+        color: #ffffff;
+      }
+      
+      a:focus {
+        text-decoration: none;
+        background: #000000;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        background: #cdfeaa00;
+      }
+      
+      a:active {
+        background: #000000;
+        color: #cdfeaa00;
+      }
+
+  }
+
+  footer  {
+    width: 100%;
+    background-color: #000000;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+
+    a {
+        background-color: red;
+        color: white;
+        padding: 1em 1.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:link {
+        color: #ff0000;
+      }
+      
+      a:visited {
+        color: #ffffff;
+      }
+      
+      a:focus {
+        text-decoration: none;
+        background: #ff00b3;
+      }
+      
+      a:hover {
+        text-decoration: none;
+        background: #cdfeaa00;
+      }
+      
+      a:active {
+        background: #000000;
+        color: #cdfeaa;
+      }
+
+  }
+
+.introduction {
+  font-size: 2.5rem;
+  color: red;
+  background-color: #ffffff;
+  padding: 70px 0;
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+
+  .container {
+    display: flex;
+    justify-content: center;
+}
+ 
+.header {
+    position: relative;
+}
+ 
+.UGA {
+    position: absolute;
+    bottom: 75px;
+    right: 350px;
+    border-radius: 53px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.engineering {
+  position: absolute;
+  bottom: 50px;
+  left: 350px;
+  width:275px;
+  height: auto;
+  border-radius: 53px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+}
+
+.overview {
+  font-size: 1.25rem;
+  color: rgb(255, 0, 0);
+  background-color: #000000;
+  padding: 70px 0;
+  border: 3px solid rgb(255, 0, 0);
+  text-align: center;
+  font-family: "Trirong", serif;
+  hr {
+    border-top: 4px solid rgb(255, 0, 0);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link {
+    color: #000000;
+  }
+  
+  a:visited {
+    color: #0000004d;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    background: #000000;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    background: #ff0000;
+  }
+  
+  a:active {
+    background: #ff0000;
+    color: #00000000;
+  }
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 31.8%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+  width: 100%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+dt {
+  text-decoration: underline;
+}
+  
+  
